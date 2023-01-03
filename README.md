@@ -1,4 +1,4 @@
-# Telegram-Mass-DM-Sendee-Bot Available At cheap rate $
+# Telegram-Mass-DM-Sender-Bot Available At cheap rate $
 
 
 Telegram Mass DM/PM/Message/Inbox Bot By Using Termux, Replit, Or any Terminal just Available at cheap price
