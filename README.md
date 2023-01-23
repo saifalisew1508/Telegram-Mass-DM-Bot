@@ -48,6 +48,6 @@ nano Message.txt
 And then Adding Members By using 
 
 ```
-python run.py
+python3 run.py
 ```
 
