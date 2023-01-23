@@ -1,8 +1,54 @@
 # Telegram-Mass-DM-Sender-Bot Available At cheap rate $
 
 
-Telegram Mass DM/PM/Message/Inbox Bot By Using Termux, Replit, Or any Terminal just Available at cheap price
+<h3 align="center">Termux Installation</h3>
 
-- DM ME AT TWITTER [ @SAIFALISEW1508 ]
-- DM ME AT TELEGRAM [ @xD_Saif ]
-- DM ME AT WHATSAPP [ +91 9708973259 ]
+First Open Termux App
+
+```
+apt update && apt upgrade && pkg install -y git python && pkg update && pkg upgrade && pkg install python git && git clone https://github.com/saifalisew1508/Telegram-Mass-DM-Bot.git
+```
+
+```
+cd Telegram-Mass-DM-Bot && ls
+```
+
+```
+pip install -r requirements.txt
+```
+
+```
+python3 -m pip install --upgrade pip
+```
+
+```
+pip install -r requirements.txt
+```
+
+
+```
+ls
+```
+
+Installation done
+
+Now run script and Inpur your API_HASH and API_ID, Phone_Number
+
+```
+python3 setup.py
+```
+
+Edit message file and input your message you want to send users in dm
+
+```
+nano Message.txt
+```
+
+
+
+And then Adding Members By using 
+
+```
+python run.py
+```
+
