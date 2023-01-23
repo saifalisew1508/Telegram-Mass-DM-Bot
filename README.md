@@ -1,5 +1,4 @@
-# Telegram-Mass-DM-Sender-Bot Available At cheap rate $
-
+# Telegram-Mass-DM-Sender-Bot Available At Free
 
 <h3 align="center">Termux Installation</h3>
 
