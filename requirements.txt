@@ -1,6 +1,6 @@
 attrs==21.4.0
 cryptg==0.3
-markdown-it-py==1.1.0
+markdown-it-py==2.2.0
 pyaes==1.6.1
 pyasn1==0.4.8
 rsa==4.7.2
