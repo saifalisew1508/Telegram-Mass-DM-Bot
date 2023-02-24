@@ -29,6 +29,11 @@ if not client.is_user_authorized():
     client.send_code_request(phone)
     client.sign_in(phone, input('Enter the code: '))
 
+
+sleeping = input("PLEASE ENTER YOUR TIME INTERVAL PER USER MESSAGE: ")
+os.system('clear')
+
+
 def scraper():
     chats = []
     last_date = None
@@ -89,7 +94,7 @@ def scraper():
         print("GOT THE FIRST 6000 MEMBERS OF THE GROUP")
     
 def massMessager():
-    SLEEP_TIME = 5
+    SLEEP_TIME = sleeping
     input_file = "members.csv"
     users = []
     with open(input_file, encoding='UTF-8') as f:
