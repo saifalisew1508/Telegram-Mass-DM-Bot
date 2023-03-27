@@ -20,7 +20,7 @@ api_id = auth['api_id']
 api_hash = auth_lst['api_hash']
 phone = auth_lst['phone']
 client.start(phone)
-SLEEP_TIME = input("PLEASE ENTER YOUR TIME INTERVAL PER USER MESSAGE: ")
+SLEEP_TIME = int(input("Enter Delay Timing For Per Message Sending : "))
 os.system('clear')
 client = TelegramClient('anon', api_id, api_hash)
  
