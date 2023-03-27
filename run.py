@@ -30,7 +30,6 @@ if not client.is_user_authorized():
     client.sign_in(phone, input('Enter the code: '))
 
 
-sleeping =  int(input("Enter Delay Timing For Per Message Sending : "))
 os.system('clear')
 
 
@@ -94,7 +93,8 @@ def scraper():
         print("GOT THE FIRST 6000 MEMBERS OF THE GROUP")
     
 def massMessager():
-    SLEEP_TIME = sleeping
+    SLEEP_TIME = int(input("Enter Delay Timing For Per Message Sending : "))
+
     input_file = "members.csv"
     users = []
     with open(input_file, encoding='UTF-8') as f:
@@ -108,8 +108,8 @@ def massMessager():
             user['name'] = row[3]
             users.append(user)
 
-    # mode = int(input("Enter 1 to send by user ID or 2 to send by username: "))
-    mode = 1
+    mode = int(input("Enter 1 to send by user ID or 2 to send by username: "))
+    # mode = 1
     
     messages= ""
     with open('message.txt') as f:
