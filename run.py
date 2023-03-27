@@ -30,7 +30,7 @@ if not client.is_user_authorized():
     client.sign_in(phone, input('Enter the code: '))
 
 
-sleeping = input("PLEASE ENTER YOUR TIME INTERVAL PER USER MESSAGE: ")
+sleeping =  int(input("Enter Delay Timing For Per Message Sending : "))
 os.system('clear')
 
 
